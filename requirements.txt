@@ -1,0 +1,4 @@
+# Apache Iceberg local POC dependencies
+# Install with:  pip install -r requirements.txt
+pyiceberg[pyarrow,duckdb,sql-sqlite]>=0.10.0
+pandas>=2.0.0
