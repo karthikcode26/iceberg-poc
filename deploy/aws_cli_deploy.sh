@@ -32,7 +32,7 @@ set -euo pipefail
 # ------------------- CONFIG (edit these two lines) --------------------------
 REGION="${AWS_REGION:-us-east-1}"
 # Bucket names are globally unique — change the suffix to something yours:
-BUCKET="${ICEBERG_BUCKET:-iceberg-poc-karthik-$(echo $RANDOM)}"
+BUCKET="${ICEBERG_BUCKET:-iceberg-poc-karthik}"
 # ----------------------------------------------------------------------------
 
 DB="retail"

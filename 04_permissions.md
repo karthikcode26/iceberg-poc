@@ -34,7 +34,7 @@ Use the ready-made policy file **`deploy/iam-policy-least-privilege.json`**. It 
 to *only* your POC bucket. Steps:
 
 ```bash
-# 1. Edit the policy: replace BUCKET_NAME (2 places) with your bucket, e.g. iceberg-poc-karthik-001
+# 1. Edit the policy: replace BUCKET_NAME (2 places) with your bucket, e.g. iceberg-poc-karthik
 #    (in the S3BucketLevel and S3ObjectLevel statements)
 
 # 2. Create the managed policy
