@@ -67,7 +67,7 @@ POC through the AWS CLI. **Run the steps in order** so you see each piece work.
 ```bash
 # Pick a region and a globally-unique bucket name (edit to your own):
 export AWS_REGION=us-east-1
-export ICEBERG_BUCKET=iceberg-poc-karthik-001   # must be globally unique
+export ICEBERG_BUCKET=iceberg-poc-karthik   # must be globally unique across all AWS accounts
 
 cd deploy
 chmod +x aws_cli_deploy.sh    # first time only
